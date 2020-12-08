@@ -1,0 +1,10 @@
+caption: cascading-i18n (ci18n)
+created: 20201208125954013
+modified: 20201208130111275
+tags: 
+title: #:/wiki/plugins/rimir/ci18n
+tocp.main-parent.ref: #:/wiki/plugins/rimir
+tocp.treelinker.fields: tocp.ci18n-plugin-parent.ref
+type: text/vnd.tiddlywiki
+
+I18n Plugin that also supports edit-mode and maintenance of tanslations via editor.
