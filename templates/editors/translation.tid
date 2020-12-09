@@ -1,8 +1,8 @@
 caption: Single Translation
 created: 20200901103141083
-modified: 20201209185022624
+modified: 20201209185704767
 title: $:/plugins/rimir/ci18n/templates/editors/translation
-tocp.ci18n-plugin-parent.ref: #:/wiki/plugins/rimir/ci18n/components
+tocp.ci18n-plugin-parent.ref: #:/p/ci18n/#:/components
 type: text/vnd.tiddlywiki
 
 <$wikify name="theTranslationTiddler" text="""<$macrocall $name="resolve-i18n-tiddler-name" key=<<key>> lang=<<currentTab>>/>""">

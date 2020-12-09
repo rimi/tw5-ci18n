@@ -1,8 +1,8 @@
 caption: i18n Macros
 created: 20200717080052510
-modified: 20201209185223414
+modified: 20201209185857637
 title: $:/plugins/rimir/ci18n/macros
-tocp.ci18n-plugin-parent.ref: #:/wiki/plugins/rimir/ci18n/macros
+tocp.ci18n-plugin-parent.ref: #:/p/ci18n/#:/macros
 type: text/vnd.tiddlywiki
 
 \define i18n(key, default)
