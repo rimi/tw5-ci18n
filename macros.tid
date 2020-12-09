@@ -1,7 +1,7 @@
 caption: i18n Macros
 created: 20200717080052510
-modified: 20201208130539934
-title: $:/plugins/rimir/content-i18n/macros
+modified: 20201209185223414
+title: $:/plugins/rimir/ci18n/macros
 tocp.ci18n-plugin-parent.ref: #:/wiki/plugins/rimir/ci18n/macros
 type: text/vnd.tiddlywiki
 
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 \define edit-i18n-button(key)
 <$button class="tc-btn-invisible tc-tiddlylink" tooltip="Edit Translations">
-<$action-sendmessage $message=<<i18n-edit-mode>> $param="$:/plugins/rimir/content-i18n/templates/editors/shallow" key="$key$" i18n-env-filter=<<i18n-env-filter>>/>
+<$action-sendmessage $message=<<i18n-edit-mode>> $param="$:/plugins/rimir/ci18n/templates/editors/shallow" key="$key$" i18n-env-filter=<<i18n-env-filter>>/>
 {{$:/images/fa5/solid/globe-asia}}
 </$button>
 \end

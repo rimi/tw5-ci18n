@@ -1,15 +1,15 @@
 caption: Flat-Editor
 created: 20200717075725921
-modified: 20201208130828796
-title: $:/plugins/rimir/content-i18n/templates/editors/shallow
+modified: 20201209185210820
+title: $:/plugins/rimir/ci18n/templates/editors/shallow
 tocp.ci18n-plugin-parent.ref: #:/wiki/plugins/rimir/ci18n/components
 type: text/vnd.tiddlywiki
 
-<$importvariables filter="[[$:/plugins/rimir/content-i18n/macros]]">
+<$importvariables filter="[[$:/plugins/rimir/ci18n/macros]]">
 <$importvariables filter=<<i18n-env-filter>>>
 
 <$wikify name="supported-langs" text=<<i18n-supported-langs>>>
-<$macrocall $name="tabs" tabsList=<<supported-langs>> template="$:/plugins/rimir/content-i18n/templates/editors/translation"/>
+<$macrocall $name="tabs" tabsList=<<supported-langs>> template="$:/plugins/rimir/ci18n/templates/editors/translation"/>
 </$wikify>
 
 </$importvariables>

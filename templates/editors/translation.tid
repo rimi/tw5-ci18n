@@ -1,7 +1,7 @@
 caption: Single Translation
 created: 20200901103141083
-modified: 20201208130812576
-title: $:/plugins/rimir/content-i18n/templates/editors/translation
+modified: 20201209185022624
+title: $:/plugins/rimir/ci18n/templates/editors/translation
 tocp.ci18n-plugin-parent.ref: #:/wiki/plugins/rimir/ci18n/components
 type: text/vnd.tiddlywiki
 
