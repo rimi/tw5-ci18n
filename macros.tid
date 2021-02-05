@@ -1,6 +1,6 @@
 caption: i18n Macros
 created: 20200717080052510
-modified: 20210122134850560
+modified: 20210205144958362
 title: $:/plugins/rimir/ci18n/macros
 tocp.ci18n-plugin-parent.ref: #:/p/ci18n/#:/macros
 type: text/vnd.tiddlywiki
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 \end
 
 \define resolve-i18n-tiddler-name(key, lang) <$wikify name="my-i18n-lang" text="<<i18n-lang>>"><$list filter="[[$lang$]minlength[1]else<my-i18n-lang>]+[xcombine[-]]+[addprefix[/]]+[addprefix<i18n-base>]+[addsuffix[/$key$]]+[is[tiddler]first[]]"><<currentTiddler>></$list></$wikify>
+
+\define calculate-i18n-tiddler-name(key, lang) <$list filter="[[$lang$]]+[addprefix[/]]+[addprefix<i18n-base>]+[addsuffix[/$key$]]"><<currentTiddler>></$list>
 
 \define edit-i18n-button(key)
 <$button class="tc-btn-invisible tc-tiddlylink" tooltip="Edit Translations">

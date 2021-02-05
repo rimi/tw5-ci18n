@@ -1,11 +1,11 @@
 caption: Single Translation
 created: 20200901103141083
-modified: 20201209185704767
+modified: 20210205145037204
 title: $:/plugins/rimir/ci18n/templates/editors/translation
 tocp.ci18n-plugin-parent.ref: #:/p/ci18n/#:/components
 type: text/vnd.tiddlywiki
 
-<$wikify name="theTranslationTiddler" text="""<$macrocall $name="resolve-i18n-tiddler-name" key=<<key>> lang=<<currentTab>>/>""">
+<$wikify name="theTranslationTiddler" text="""<$macrocall $name="calculate-i18n-tiddler-name" key=<<key>> lang=<<currentTab>>/>""">
 <$list filter="[<theTranslationTiddler>is[tiddler]]">
 Tiddler already exists!
 </$list>
@@ -13,7 +13,7 @@ Tiddler already exists!
 Tiddler DOES NOT exist!
 </$list>
 
-<$link to=<<theTranslationTiddler>>>Open Tiddler</$link><br/>
+<$link to=<<theTranslationTiddler>>>Open Tiddler (<<theTranslationTiddler>>)</$link><br/>
 
 <$edit-text tiddler=<<theTranslationTiddler>> field="text" class="simple-edit-textarea"/>
 </$wikify>
