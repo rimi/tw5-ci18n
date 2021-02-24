@@ -1,0 +1,9 @@
+caption: ContentFilter: Full Plugin
+created: 20210224144518833
+modified: 20210224144658891
+tags: rimir:content-filter
+title: $:/plugins/rimir/ci18n/content-filters/full-plugin
+tocp.ci18n-plugin-parent.ref: #:/p/ci18n/#:/content-filters
+type: text/vnd.tiddlywiki
+
+[prefix[$:/plugins/rimir/ci18n]]
